@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "FXT5ZFMCTR.com.kerla",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<head> 
-    <title>404 Not Found</title>
-<!--     <script>
-        window.location.href = "intent:#Intent;scheme=https://appkerla.github.io;package=com.ru.kerla;end";
-    </script> -->
+  <title>404 Error</title>
 </head>
 <body>
-    <p>Перенаправление на другой сайт...</p>
+  <h1>404 Not Found</h1>
+  <p>Path: <span id="path"></span></p>
+
+  <script>
+    document.getElementById("path").textContent = window.location.pathname;
+  </script>
 </body>
 </html>

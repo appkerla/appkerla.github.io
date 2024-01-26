@@ -8,7 +8,10 @@
   <p>Path: <span id="path"></span></p>
 
   <script>
-    document.getElementById("path").textContent = window.location.pathname;
+    var path = window.location.pathname;
+    var newUrl = "intent:#Intent;scheme=https://appkerla.github.io" + path + ";package=com.ru.kerla;end";
+    window.location.href = newUrl;
+    document.getElementById("path").textContent = path;
   </script>
 </body>
 </html>
